@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#header {
+    background-color: #1b2530;
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    
+}
+
+#header h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+#header p{
+  font-size: 18px;
+ font-weight: 300;  
+  color:rgba(255, 255, 255, 0.9) ;
+  font-style: italic;
+}  
+
+#about {
+    width: 100%;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#about h2{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+#about p {
+  padding: 30px 220px;
+}
+
+.education{
+    background-color: rgb(182, 211, 218);
+     margin: 20px 100px;
+    padding: 40px 60px;
+    border-radius: 8px;
+}
+
+.education-title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.education-item{
+    background-color: white;
+    padding: 20px 30px;
+   margin: 0 60px 15px 60px; 
+    border-radius: 6px;
+    text-align: center; 
+}
+
+.education-item:last-child{
+    margin: 0 60px 0 60px; 
+}
+
+.skills{
+    background-color: rgb(252, 252, 155);
+    margin: 20px 100px;
+    padding: 40px 60px;
+    border-radius: 8px;
+}
+
+.skills-title{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.skills-item{
+    background-color: white;
+    padding: 20px 30px;
+    margin: 0 60px 15px 50px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.section-item:last-child{
+    margin: 0 60px 0 60px;
+}
+
+.skill-text{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.project{
+    background-color: rgb(224, 209, 224);
+    margin: 20px 100px;
+    padding: 40px 60px;
+    border-radius: 8px;
+}
+
+.project-title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.project-item{
+    background-color: white;
+    font-style: italic;
+    font-weight: 500;
+    padding: 20px 30px;
+    margin: 0 60px 15px 60px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.project-item:last-child{
+    margin-bottom: 0 60px 0 60px;
+}
+
+.contact{
+    background-color: rgb(187, 206, 187);
+    margin: 20px 100px;
+    border-radius: 8px;
+    padding: 40px 60px;
+}
+
+.contact-title{
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contact-item{
+    background-color: white;
+    padding: 20px 30px;
+    margin: 0 60px 15px 60px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.contact-item:last-child{
+    margin-bottom: 0 60px 0 60px;
+}
+
+footer{
+    text-align: center;
+    background-color: #1b2530;
+    color: rgb(255, 244, 244);
+    padding: 17px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
