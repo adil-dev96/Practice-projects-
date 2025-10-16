@@ -1,0 +1,325 @@
+@font-face {
+  font-family: apple;
+  src: url(sf-pro-display_regular.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: apple;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#nav {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 10px;
+}
+#nav h4:hover {
+  cursor: pointer;
+}
+
+#nav h4 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#center {
+  width: 100%;
+  height: 580px;
+  background-image: url(hero_iphone_17_pro__bknyzxfk2agi_medium.jpg);
+  color: white;
+  text-align: center;
+  padding: 60px;
+  background-size: cover;
+  background-position: center;
+}
+
+#center h2 {
+  font-size: 60px;
+}
+
+#center h5 {
+  font-size: 35px;
+  font-weight: 200;
+}
+
+#btn {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 15px;
+}
+#center:hover {
+  cursor: pointer;
+}
+#Learn {
+  background-color: #0077ed;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  border: none;
+  font-size: 17px;
+}
+
+#Learn:hover {
+  cursor: pointer;
+}
+
+#buy {
+  padding: 10px 15px;
+  border-radius: 50px;
+  background: transparent;
+  color: #0077ed;
+  border: 2px solid #0077ed;
+  font-size: 17px;
+}
+
+#buy:hover {
+  background-color: #0077ed;
+  color: white;
+}
+
+#air {
+  width: 100%;
+  height: 600px;
+  background-image: url(hero_iphone_air__0gxyavihpiqu_medium.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.air-head h2 {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 50px;
+}
+.air-head h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.btn-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  gap: 25px;
+}
+
+#buy:hover {
+  cursor: pointer;
+}
+
+#air:hover {
+  cursor: pointer;
+}
+
+#middle {
+  flex: 1;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  background-image: url(promo_iphone_17__bhofuohbsu3m_medium.jpg);
+}
+
+#middle div {
+  text-align: center;
+}
+
+#middle h2 {
+  font-size: 40px;
+}
+
+#middle h3 {
+  padding-top: 8px;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.btn-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  gap: 25px;
+}
+
+#iphone-watch {
+  display: flex;
+}
+
+#middle-2 {
+  flex: 1;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  background-image: url(promo_apple_watch_series_11__b63hxviqvonm_medium.jpg);
+}
+#watch11 {
+  text-align: center;
+}
+
+#middle-2 h2 {
+  font-weight: 100;
+  font-size: 40px;
+}
+
+#middle-2 b {
+  font-weight: 900;
+}
+
+#middle-2 h3 {
+  padding-top: 8px;
+  font-size: 30px;
+  font-weight: 100;
+}
+.btn-4 {
+  gap: 25px;
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.airedu {
+  padding: 15px;
+  display: flex;
+}
+
+.education {
+  height: 670px;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-image: url(promo_edu__efkxh2h1luoi_large_2x.jpg);
+}
+.education {
+  padding-top: 30%;
+  text-align: center;
+}
+
+.education h1 {
+  text-transform: capitalize;
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+}
+
+.education h3 {
+  font-size: 26px;
+  color: white;
+  font-weight: 100;
+}
+
+.btn-5 {
+  padding-top: 20px;
+}
+.airpod3 {
+  height: 670px;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-image: url(promo_airpodspro_3__f6xmza7bglei_medium.jpg);
+}
+
+.airpod3 h1 {
+  padding-top: 70px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.airpod3 h2 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.btn-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.mactrade {
+  display: flex;
+}
+
+.macair {
+  padding-top: 20px;
+  text-align: center;
+  height: 670px;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-image: url(promo_macbook_air__fqowrtnxewqe_large_2x.jpg);
+}
+.macair h1{
+  font-size: 50px;
+}
+.macair h3{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.btn-7{
+padding-top: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+
+}
+  
+
+.tradein {
+  left: 0;
+  text-align: center;
+
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-image: url(promo_iphone_tradein__bugw15ka691e_medium.jpg);
+}
+
+.tradein h1{
+  font-size: 50px;
+  font-weight: 500;
+}
+.tradein h3{
+  font-weight: 300;
+  font-size: 25px;
+}
+#btn7 {
+  cursor: pointer;
+  background-color: #0077ed;
+  padding: 10px 15px;
+  border-radius: 50px;
+  color: white;
+  font-size: 17px;
+  border: none;
+  margin-top: 20px;
+}
+
